@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "estilos.scss",
+        "sass_files/_variables.scss",
+        "sass_files/_generalStyles.scss",
+        "sass_files/_menu.scss"
+    ],
+    "names": [],
+    "file": "estilos.min.css"
+}

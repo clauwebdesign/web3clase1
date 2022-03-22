@@ -1,0 +1,16 @@
+// se usa el concepto de atomic design - partimos de elementos básicos - hasta ui kit (colores, tipografías, botones, etc).
+// también se puede aplicar al desarrollo átomico - modularizar nuestro trabajo
+
+// unificar archivos en uno -> compilar en un archivo único (genero un css, min, map (asociado a un .min, función: mapear - dice al navegador de donde salió determinada regla - línea de código donde está definida))
+
+//Live Sass compile - genera archivos scss a partir de sass
+
+// el orden en los import es importante - la variable debe estar definida antes de llamar al archivo q la utiliza
+// importa en este orden
+@import "sass_files/_variables.scss";//declara variables
+@import "sass_files/generalStyles";//estilos generales del sitio
+@import "sass_files/_menu.scss";//estilos del menu
+
+
+
+

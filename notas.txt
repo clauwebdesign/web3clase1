@@ -1,0 +1,10 @@
+---------------------------------
+¿Que significa en sass/scss "&"?
+.clasePadre {
+  &.claseHijo {
+  }
+}
+
+hace referencia al selector padre dentro del cual se encuentra la regla anidada (aplicar estilos especiales en el estado hover del selector por ejemplo)
+=> Equivale a .clasePadre.claseHijo.
+----------------------------------
